@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yeltsov Studio — Full-stack web applications</title>
+  <meta name="description"
+    content="Nikita Yeltsov — full-stack developer. React, JavaScript, Node.js and PostgreSQL: landing pages, web apps, dashboards and SaaS MVPs.">
+  <meta name="theme-color" content="#05080f">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="topbar__inner">
+      <span class="topbar__text topbar__tree">Holiday Season 2026: Open for $1 Full-Stack Build &amp; Save MVPs with
+        1%–10% Seasonal Promo</span>
+      <a class="topbar__link arrow" href="#holiday">Claim Holiday Code</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">Yeltsov <span>Studio</span></a>
+      <span class="status">Winter slots open</span>
+
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false"
+        aria-controls="nav"></button>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a class="nav__link" href="#services">Services</a>
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link nav__link--holiday" href="#holiday">Holiday Offer</a>
+        <a class="nav__link" href="#process">Process</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+        <span class="header__cta"><a class="btn btn--primary btn--sm arrow" href="#contact">Discuss Project</a></span>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title reveal">Full-stack web applications, <span class="grad">engineered for speed and
+            scale.</span></h1>
+        <p class="hero__lead reveal">I'm Nikita Yeltsov. I design and build fast, scalable web applications, SaaS
+          interfaces, and custom websites using React, JavaScript, Tailwind CSS, Node.js, and PostgreSQL — from clean
+          frontend architecture to reliable backend APIs.</p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary arrow" href="#holiday">Claim Holiday Discount</a>
+          <a class="btn btn--ghost arrow-down" href="#projects">See my work</a>
+        </div>
+        <div class="hero__chips reveal">
+          <span class="chip chip--live">Holiday rates active</span>
+          <span class="chip">Landing pages from <b>€340</b></span>
+          <span class="chip">React Apps from <b>€600</b></span>
+          <span class="chip">Full-Stack MVPs from <b>€1,400</b></span>
+        </div>
+
+        <div class="features reveal">
+          <div class="feature">
+            <span class="ico ico--code" aria-hidden="true"></span>
+            <h3>Frontend &amp; Backend in one pair of hands</h3>
+            <p>Pixel-accurate HTML5/CSS3, React and Tailwind UI with Node.js APIs and PostgreSQL schemas — zero handoff
+              friction.</p>
+          </div>
+          <div class="feature">
+            <span class="ico ico--clock" aria-hidden="true"></span>
+            <h3>Fixed price &amp; timeline upfront</h3>
+            <p>Agreed in writing before a single line of code. Clear scope, clear deadline, no surprises at the end.</p>
+          </div>
+          <div class="feature">
+            <span class="ico ico--check" aria-hidden="true"></span>
+            <h3>100% clean, maintainable code</h3>
+            <p>Modular architecture, Git workflow, documented setup. Full repository ownership transferred to you at
+              handoff.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <div class="reveal">
+            <h2 class="section__title">What I can build <span>for your product.</span></h2>
+          </div>
+          <p class="section__lead reveal">Clean code, responsive interfaces, and scalable backend architecture. Every
+            deliverable is tested across modern browsers and devices.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="ico ico--page" aria-hidden="true"></span>
+            <h3>Landing Page &amp; Promo Sites</h3>
+            <p>HTML5/CSS3, JS and Tailwind. Responsive, SEO-ready pages engineered for high conversion and fast load
+              times.</p>
+            <div class="card__foot"><span class="price">From <b>€340</b></span><span class="days">1–4 days</span></div>
+          </article>
+          <article class="card reveal">
+            <span class="ico ico--react" aria-hidden="true"></span>
+            <h3>React Web Apps &amp; Dashboards</h3>
+            <p>Single-page applications (SPA), complex interactive UIs, state management, data visualization and
+              seamless REST API integration.</p>
+            <div class="card__foot"><span class="price">From <b>€600</b></span><span class="days">5–18 days</span></div>
+          </article>
+          <article class="card reveal">
+            <span class="ico ico--stack" aria-hidden="true"></span>
+            <h3>Full-Stack Products</h3>
+            <p>React + Node.js + PostgreSQL. Complete web platforms with authentication, relational databases, and
+              custom REST/GraphQL APIs.</p>
+            <div class="card__foot"><span class="price">From <b>€850</b></span><span class="days">10–30 days</span>
+            </div>
+          </article>
+          <article class="card reveal">
+            <span class="ico ico--tool" aria-hidden="true"></span>
+            <h3>Support &amp; Refactoring</h3>
+            <p>Code audits, Core Web Vitals optimization, bug fixes, legacy refactoring, and new features for existing
+              apps.</p>
+            <div class="card__foot"><span class="price">From <b>€30</b></span><span class="days">1–3 days</span></div>
+          </article>
+        </div>
+
+        <div class="banner reveal">
+          <div>
+            <span class="banner__tag">Flagship winter engineering</span>
+            <h3>Full-Cycle MVP &amp; SaaS Development</h3>
+            <p><b>Architecture &amp; Build:</b> system design, responsive React UI, Node.js backend, PostgreSQL database
+              schema, authentication, and CI/CD deployment. Built to scale from day one.</p>
+          </div>
+          <div class="banner__side">
+            <span class="banner__price">MVP from <b>€1 400</b><em>Holiday price</em></span>
+            <a class="btn btn--primary arrow" href="#contact">Discuss your MVP</a>
+          </div>
+        </div>
+
+        <div class="note reveal">
+          <p>Prices are estimates — the final quote depends on technical scope. Send a brief overview of your project
+            and I'll reply with a firm estimate.</p>
+          <a class="btn btn--ghost arrow" href="#contact">Get an estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <div class="reveal">
+            <h2 class="section__title">Recent web projects <span>engineered for high conversion &amp; speed.</span></h2>
+          </div>
+          <p class="section__lead reveal">Production-ready custom websites with bespoke design, sub-second load times,
+            and reliable backend infrastructure. Explore recent builds below.</p>
+        </div>
+
+        <div class="featured">
+          <article class="project reveal">
+            <div class="project__info">
+              <span class="project__tag">Live production SaaS · React · Tailwind · Next.js</span>
+              <h3>LUXESTATE</h3>
+              <p>A multi-page real estate website built from my own mockups with HTML, CSS and vanilla JavaScript. It
+                has a home page, a property catalog with live filters, a property details page and an animated login
+                form. The site works in English and German. What I solved: Built a translation system from scratch that
+                switches all texts and prices and remembers the language. Made filtering work across pages: the home
+                page search passes its filters to the catalog. Drew all icons, the map, the floor plan and the
+                animations in pure CSS.</p>
+              <div class="metrics">
+                <div class="metric"><b>+140%</b><span>Conversion rate</span></div>
+                <div class="metric"><b>&lt;0.8s</b><span>First contentful paint</span></div>
+                <div class="metric"><b>99/100</b><span>Lighthouse score</span></div>
+              </div>
+              <div class="project__actions">
+                <a class="btn btn--primary btn--sm arrow" href="https://housrent-dusky.vercel.app/index.html">Visit
+                  Website</a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/NikitaYmedia/housrent">View Architecture</a>
+              </div>
+            </div>
+            <div class="project__media">
+              <div class="browser">
+                <div class="browser__bar"><i></i><i></i><i></i><span class="browser__url">https://housrent-dusky.vercel.app/index.html</span></div>
+                <div class="shot shot--apexflow has-photo">
+                  <img src="img/1.png" alt="ApexFlow website screenshot" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__info">
+              <span class="project__tag">E-commerce store · HTML · CSS · JavaScript · Vercel</span>
+              <h3>KLIP & RO</h3>
+              <p>What the site is for: a modern hair salon website. It presents the services and prices, the team, a
+                photo gallery and contact details, and lets clients book an appointment online. Decisions you made: You
+                designed a simple pink mockup yourself and asked me to turn it into a full project. All visuals, icons
+                and animations are redrawn in CSS only, with no Tailwind and no inline styles. No JavaScript is written
+                inside the HTML. It lives in separate files and only toggles classes and text. The site is multi-page:
+                every item in the menu (Home, Services, About, Gallery, Contact) became a real page filled with text.
+                Images are linked by URL, and the site language is English. You wanted something unusual with a clear
+                structure: a neon sign, a marquee, a style quiz, a booking wizard and a lightbox gallery</p>
+              <div class="metrics">
+                <div class="metric"><b>12k+</b><span>Active shoppers</span></div>
+                <div class="metric"><b>99.9%</b><span>Uptime</span></div>
+                <div class="metric"><b>&lt;150ms</b><span>Cart sync</span></div>
+              </div>
+              <div class="project__actions">
+                <a class="btn btn--primary btn--sm arrow" href="https://hairsalon-pi.vercel.app">Visit Website</a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/NikitaYmedia/HAIRSALON">View Tech Stack</a>
+              </div>
+            </div>
+            <div class="project__media">
+              <div class="browser">
+                <div class="browser__bar"><i></i><i></i><i></i><span class="browser__url">https://hairsalon-pi.vercel.app</span>
+                </div>
+                <div class="shot shot--nordic has-photo">
+                  <img src="https://frontend-nikita-yeltsov.vercel.app/img/123123.png"
+                    alt="Nordic Crafted store screenshot" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__info">
+              <span class="project__tag">B2B clinical platform · React · Node.js · PostgreSQL · Neon · bcrypt</span>
+              <h3>AUTH & SECURITY</h3>
+              <p>A full-stack app where users can register and log in. The main task was handling credentials safely:
+                passwords are hashed with bcrypt, sessions are managed with express-session, and user data is stored in
+                PostgreSQL (Neon).</p>
+              <div class="metrics">
+                <div class="metric"><b>15k</b><span>Bookings / month</span></div>
+                <div class="metric"><b>4.9/5</b><span>Doctor rating</span></div>
+                <div class="metric"><b>Zero</b><span>Booking conflicts</span></div>
+              </div>
+              <div class="project__actions">
+                <a class="btn btn--primary btn--sm arrow" href="https://user-auth-app-kappa.vercel.app/">Visit
+                  Website</a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/NikitaYmedia/user-auth-app">View Tech
+                  Stack</a>
+              </div>
+            </div>
+            <div class="project__media">
+              <div class="browser">
+                <div class="browser__bar"><i></i><i></i><i></i><span
+                    class="browser__url">https://user-auth-app-kappa.vercel.app/</span>
+                </div>
+                <!-- IMAGE: put your krona screenshot in images/krona.jpg -->
+                <div class="shot shot--krona has-photo">
+                  <img src="https://frontend-nikita-yeltsov.vercel.app/img/image%20copy%203.png"
+                    alt="Krona Health portal screenshot" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="more reveal">
+          <a class="btn btn--primary arrow" href="projects.html">All projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOLIDAY GENERATOR -->
+    <section class="section" id="holiday">
+      <div class="container">
+        <div class="section__head">
+          <div class="reveal">
+            <h2 class="section__title">Holiday Discount Generator <span>for your first project.</span></h2>
+          </div>
+          <p class="section__lead reveal">Spin the seasonal discount randomizer or copy a promo code to lock in a 1%–10%
+            holiday discount on your first MVP, web app, or high-conversion landing page.</p>
+        </div>
+
+        <div class="promo reveal">
+          <div class="promo__box">
+            <h3>Try your holiday luck</h3>
+            <p>Generate a personalized promo code with a random discount from 1% to 10%. The code locks your discount on
+              a full-stack build once we kick off.</p>
+
+            <div class="field">
+              <label for="company">Company or project name</label>
+              <input class="input" id="company" type="text" maxlength="24" placeholder="Acme Corp"
+                autocomplete="organization">
+              <span class="field__hint">Enter your company name to personalize your holiday promo code.</span>
+            </div>
+
+            <div class="promo__actions">
+              <button class="btn btn--primary" id="generate" type="button">Generate discount</button>
+              <button class="btn btn--ghost" id="copy-code" type="button">Copy code</button>
+            </div>
+            <p class="promo__foot">Quote this code during kickoff — the discount will be deducted from your final
+              estimate.</p>
+          </div>
+
+          <div class="coupon browser" id="coupon" aria-live="polite">
+            <div class="browser__bar"><i></i><i></i><i></i><span class="browser__url">Holiday promo · 2026</span></div>
+            <div class="coupon__body">
+              <span class="coupon__label">Personalized for</span>
+              <strong class="coupon__label" id="coupon-name">Acme Corp</strong>
+              <span class="coupon__code" id="coupon-code">ACME-PRO-7</span>
+              <span class="coupon__pct" id="coupon-pct">Discount: 7%</span>
+              <span class="coupon__meta">Valid for: <b>React · Node · Postgres</b></span>
+              <span class="coupon__meta">Validity period: <b>January – February 2027</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <div class="reveal">
+            <h2 class="section__title">From first message <span>to production deployment.</span></h2>
+          </div>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step__n"></span>
+            <h3>You write</h3>
+            <p>Send a short note about your project, goals, and technical requirements on Telegram or email.</p>
+            <span class="step__meta">Response time: &lt; 3 hours</span>
+          </article>
+          <article class="step reveal">
+            <span class="step__n"></span>
+            <h3>Architecture &amp; plan</h3>
+            <p>I propose the stack, database/API structure, fixed price, and timeline. We start once scope is agreed in
+              writing.</p>
+            <span class="step__meta">Fixed quote · No hidden fees</span>
+          </article>
+          <article class="step reveal">
+            <span class="step__n"></span>
+            <h3>Build &amp; iterate</h3>
+            <p>Agile development with regular Git commits and a staging link to review progress, so there are no
+              surprises at the deadline.</p>
+            <span class="step__meta">Live staging previews</span>
+          </article>
+          <article class="step reveal">
+            <span class="step__n"></span>
+            <h3>Deploy &amp; handoff</h3>
+            <p>I deploy to production, configure servers and databases, and transfer 100% of the source code to your
+              repository.</p>
+            <span class="step__meta">100% code ownership</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about__photo reveal">
+            <img src="img/myphoto.png">
+            <div class="about__badge"><b>Nikita Yeltsov</b><span>Full-stack developer</span></div>
+          </div>
+          <div class="about__text reveal">
+            <h2 class="section__title">Nikita Yeltsov, <span>Full-Stack Developer.</span></h2>
+            <p>I build modern, high-performance web applications with a focus on clean architecture, responsive UI, and
+              reliable backend systems.</p>
+            <p>On the frontend, I craft fast, accessible interfaces using React, JavaScript (ES6+), HTML5/CSS3, and
+              Tailwind CSS. On the backend, I design scalable REST APIs and relational schemas with Node.js and
+              PostgreSQL — ensuring your product is solid from database to browser.</p>
+            <div class="stack">
+              <div class="stack__label">Core tech stack</div>
+              <div class="stack__list">
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+                <span class="tag">HTML5 &amp; CSS3</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">REST API</span>
+                <span class="tag">WordPress</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="center">
+          <span class="eyebrow">Questions</span>
+          <h2 class="section__title">Frequently asked.</h2>
+        </div>
+        <div class="faq">
+          <details class="faq__item" open>
+            <summary class="faq__q">What tech stack do you use?</summary>
+            <p class="faq__a">My core stack is React, JavaScript (ES6+), HTML5/CSS3, and Tailwind CSS for the frontend,
+              paired with Node.js and PostgreSQL for APIs and databases.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">How long does it take to build a web app or site?</summary>
+            <p class="faq__a">Landing pages take 3–5 days, React apps and dashboards 5–12 days, and full-stack products
+              10–21 days. You get an exact timeline with the fixed quote before we start.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">Do I get 100% of the source code?</summary>
+            <p class="faq__a">Yes. At handoff the full repository is transferred to you, with documentation for running,
+              building and deploying the project.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">Can you work on an existing React or Node.js codebase?</summary>
+            <p class="faq__a">Absolutely. I do code audits, refactoring, performance optimization and new features for
+              existing applications — starting from $30.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact reveal">
+          <div>
+            <h2 class="section__title">Tell me about your project — <span>I'll reply with a firm estimate.</span></h2>
+            <p class="contact__lead">No forms or ticket queues. Message me directly via your preferred channel with a
+              brief overview of what you want to build, and I will reply within 3 hours.</p>
+            <div class="contact__actions">
+              <a class="btn btn--primary" href="mailto:hello@yeltsov-studio.com">Send an Email</a>
+              <a class="btn btn--ghost" href="https://www.facebook.com/profile.php?id=61585810612594&locale=ru_RU"
+                target="_blank" rel="noopener">Facebook Messenger</a>
+            </div>
+            <div class="contact__tg">
+              <span>Fast contact via Telegram is also available for customers in Europe, Ukraine and CIS.</span>
+              <a class="btn btn--ghost arrow" href="https://t.me/yeltsov_studio" target="_blank" rel="noopener">Message
+                on Telegram: @yeltsov_studio</a>
+            </div>
+          </div>
+
+          <aside class="contact__card">
+            <h4>Quick details</h4>
+            <div class="rows">
+              <div class="row"><span>Status</span><b>Winter 2026/27</b></div>
+              <div class="row"><span>Telegram direct</span><b><a href="https://t.me/yeltsov_studio" target="_blank"
+                    rel="noopener">@yeltsov_studio</a></b></div>
+              <div class="row"><span>Email address</span><b><a
+                    href="mailto:yeltsov.studio@gmail.com">yeltsov.studio@gmail.com</a></b></div>
+              <div class="row"><span>Typical response</span><b>Within 2–3 hours</b></div>
+              <div class="row"><span>Timezone</span><b>Europe / CET</b></div>
+            </div>
+            <div class="socials">
+              <a href="https://github.com/NikitaYmedia">GitHub</a><a
+                href="https://www.linkedin.com/in/nikita-yeltsov-8098643b7">LinkedIn</a><a
+                href="https://www.facebook.com/profile.php?id=61585810612594&locale=ru_RU">Facebook</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="logo" href="#top">Yeltsov <span>Studio</span></a>
+          <p>Full-stack web engineering, React interfaces, and scalable Node.js &amp; PostgreSQL APIs by Nikita Yeltsov.
+          </p>
+          <span class="status">Available for projects · Winter 2026</span>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <div class="footer__links">
+            <a href="#services">Services &amp; Pricing</a>
+            <a href="#projects">Selected Work</a>
+            <a href="#holiday">Holiday Offer</a>
+            <a href="#process">Process</a>
+            <a href="#about">About &amp; Stack</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+        <div>
+          <h4>Direct contact</h4>
+          <p>Direct communication with the developer — no middlemen.</p>
+          <div class="footer__links">
+            <a class="arrow" href="yeltsov.studio@gmail.com">yeltsov.studio@gmail.com</a>
+            <a class="arrow" href="https://t.me/yeltsov_studio" target="_blank" rel="noopener">Telegram:
+              @yeltsov_studio</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Yeltsov Studio</span>
+        <nav aria-label="Social">
+          <a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">Facebook</a>
+        </nav>
+        <button class="to-top" id="to-top" type="button">↑ Top</button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+  <script>
+    const snowContainer = document.createElement('div');
+    snowContainer.style.cssText = 'position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:9999;';
+    document.body.appendChild(snowContainer);
+
+    for (let i = 0; i < 70; i++) {
+      const snow = document.createElement('span');
+      snow.className = 'snow';
+      snow.textContent = '❄';
+      snow.style.left = Math.random() * 100 + 'vw';
+      snow.style.opacity = Math.random() * 0.7 + 0.3;
+      snow.style.fontSize = Math.random() * 10 + 8 + 'px';
+      snow.style.animationDuration = Math.random() * 8 + 5 + 's';
+      snow.style.animationDelay = Math.random() * -13 + 's';
+      snowContainer.appendChild(snow);
+    }
+  </script>
+</body>
+
+</html>

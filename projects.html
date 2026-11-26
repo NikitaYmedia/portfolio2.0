@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All projects — Yeltsov Studio</title>
+  <meta name="description"
+    content="All web projects by Nikita Yeltsov: React, Node.js and PostgreSQL applications, SaaS dashboards and websites.">
+  <meta name="theme-color" content="#05080f">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Yeltsov <span>Studio</span></a>
+      <span class="status">Winter slots open</span>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false"
+        aria-controls="nav"></button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a class="nav__link" href="index.html#services">Services</a>
+        <a class="nav__link is-active" href="projects.html">Projects</a>
+        <a class="nav__link nav__link--holiday" href="index.html#holiday">Holiday Offer</a>
+        <a class="nav__link" href="index.html#process">Process</a>
+        <a class="nav__link" href="index.html#about">About</a>
+        <a class="nav__link" href="index.html#faq">FAQ</a>
+        <span class="header__cta"><a class="btn btn--primary btn--sm arrow" href="index.html#contact">Discuss
+            Project</a></span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <a class="back" href="index.html#projects">Back to home</a>
+        <span class="eyebrow">Portfolio · 10 projects</span>
+        <h1 class="hero__title">All projects, <span class="grad">built for production.</span></h1>
+        <p class="hero__lead">Web applications, SaaS dashboards and B2B platforms engineered with React, Node.js and
+          PostgreSQL. Every project is shipped with clean, maintainable code.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-projects">
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your apexflow screenshot in images/apexflow.jpg -->
+              <div class="shot shot--apexflow has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/TIDE.png" alt="ApexFlow website screenshot"
+                  loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 01</span>
+              <h3>TIDE</h3>
+              <p>A concept landing page built to practice visual storytelling. The challenge was making a calm, minimal
+                design feel alive without hurting performance, so I used Framer Motion for subtle animations within a
+                Next.js and TypeScript setup.</p>
+              <div class="tile__tags"><span class="tag">React</span><span class="tag">TypeScript</span><span
+                  class="tag">Next.js</span></div>
+              <div class="tile__foot">
+                <span class="tile__stat">+140% conversion</span>
+                <a class="btn btn--ghost btn--sm arrow" href="https://tide-topaz-three.vercel.app/">Visit</a>
+              </div>
+            </div>
+          </article>
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your nordic screenshot in images/nordic.jpg -->
+              <div class="shot shot--nordic has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/image%20copy%204.png"
+                  alt="Nordic Crafted store screenshot" loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 02</span>
+              <h3>LUXESTATE</h3>
+              <p>A multi-page real estate website built from my own mockups with HTML, CSS and vanilla JavaScript. It
+                has a home page, a property catalog with live filters, a property details page and an animated login
+                form. The site works in English and German. What I solved: Built a translation system from scratch that
+                switches all texts and prices and remembers the language. Made filtering work across pages: the home
+                page search passes its filters to the catalog. Drew all icons, the map, the floor plan and the
+                animations in pure CSS.</p>
+              <div class="tile__tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span
+                  class="tag">CSS</span></div>
+              <div class="tile__foot">
+                <span class="tile__stat">12k+ active shoppers</span>
+                <a class="btn btn--ghost btn--sm arrow" href="https://housrent-dusky.vercel.app/index.html">Visit</a>
+              </div>
+            </div>
+          </article>
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your krona screenshot in images/krona.jpg -->
+              <div class="shot shot--krona has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/123123.png"
+                  alt="Krona Health portal screenshot" loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 03</span>
+              <h3>KLIP & RO</h3>
+              <p>What the site is for: a modern hair salon website. It presents the services and prices, the team, a
+                photo gallery and contact details, and lets clients book an appointment online. Decisions you made: You
+                designed a simple pink mockup yourself and asked me to turn it into a full project. All visuals, icons
+                and animations are redrawn in CSS only, with no Tailwind and no inline styles. No JavaScript is written
+                inside the HTML. It lives in separate files and only toggles classes and text. The site is multi-page:
+                every item in the menu (Home, Services, About, Gallery, Contact) became a real page filled with text.
+                Images are linked by URL, and the site language is English. You wanted something unusual with a clear
+                structure: a neon sign, a marquee, a style quiz, a booking wizard and a lightbox gallery.
+              </p>
+              <div class="tile__tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span
+                  class="tag">CSS</span></div>
+              <div class="tile__foot">
+                <span class="tile__stat">15k bookings / month</span>
+                <a class="btn btn--ghost btn--sm arrow" href="https://hairsalon-pi.vercel.app/">Visit</a>
+              </div>
+            </div>
+          </article>
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your metricflow screenshot in images/metricflow.jpg -->
+              <div class="shot shot--metricflow has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/image%20copy%203.png"
+                  alt="MetricFlow dashboard screenshot" loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 04</span>
+              <h3>AUTH & SECURITY</h3>
+              <p>A full-stack app where users can register and log in. The main task was handling credentials safely:
+                passwords are hashed with bcrypt, sessions are managed with express-session, and user data is stored in
+                PostgreSQL (Neon).</p>
+              <div class="tile__tags"><span class="tag">React</span><span class="tag">Node.js</span><span
+                  class="tag">PostgreSQL</span><span class="tag">bcrypt</span></div>
+              <div class="tile__foot">
+                <span class="tile__stat">+10k users</span>
+                <a class="btn btn--ghost btn--sm arrow" href="https://user-auth-app-kappa.vercel.app/">Visit</a>
+              </div>
+            </div>
+          </article>
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your nordicslot screenshot in images/nordicslot.jpg -->
+              <div class="shot shot--nordicslot has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/pro9.png"
+                  alt="NordicSlot booking platform screenshot" loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 05</span>
+              <h3>RECEIPT</h3>
+              <p>People lose receipts and warranties exactly when they need them. I built a mobile-first PWA that keeps
+                purchases, receipts, warranties and manuals in one place, and the home screen shows the total value of
+                everything you own. Built with React, TypeScript and Supabase.</p>
+              <div class="tile__tags"><span class="tag">React 18</span><span class="tag">TypeScript</span><span
+                  class="tag">Supabase</span><span class="tag">PostgreSQL</span><span class="tag">React Router</span>
+              </div>
+              <div class="tile__foot">
+                <span class="tile__stat">1,400+ monthly bookings</span>
+                <a class="btn btn--ghost btn--sm arrow" href="https://receipt-beta-nine.vercel.app/">Visit</a>
+              </div>
+            </div>
+          </article>
+          <article class="tile reveal">
+            <div class="browser">
+              <!-- IMAGE: put your velo screenshot in images/velo.jpg -->
+              <div class="shot shot--velo has-photo">
+                <img src="https://frontend-nikita-yeltsov.vercel.app/img/PRIMA.png"
+                  alt="Velocé Gear storefront screenshot" loading="lazy">
+              </div>
+            </div>
+            <div class="tile__body">
+              <span class="tile__num">Project 06</span>
+              <h3>PRIMA RENGØRING</h3>
+              <p>A real website for a cleaning company, and it is now their main site. I turned the company’s needs into
+                a clear, simple page that works well for their customers.</p>
+              <div class="tile__tags"><span class="tag">React</span><span class="tag">Node.js</span><span
+                  class="tag">Stripe</span></div>
+              <div class="tile__foot">
+                <span class="tile__stat">Live in production</span>
+                <a class="btn btn--ghost btn--sm arrow" href="http://primarengoring.dk/">Visit</a>
+              </div>
+            </div>
+          </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom footer__bottom--solo">
+        <span>© <span id="year">2026</span> Yeltsov Studio</span>
+        <nav aria-label="Footer">
+          <a href="index.html">Home</a><a href="index.html#contact">Contact</a><a href="https://t.me/yeltsov_studio"
+            target="_blank" rel="noopener">Telegram</a>
+        </nav>
+        <button class="to-top" id="to-top" type="button">↑ Top</button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
